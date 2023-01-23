@@ -1,13 +1,17 @@
-import logo from '../logo.svg';
 import './App.css';
+import CartWidget from './CartWidget/CartWidget';
+import NavBar from './NavBar/NavBar';
+import ItemListContainer from './ItemListContainer/ItemListContainer';
+import Buscador from './Buscador/Buscador';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
+      <>
+        <NavBar />
+        <Buscador/>
+        <ItemListContainer bienvenidaLanum={"Bienvenidos a Lanum"}/>
+        <ItemListContainer bienvenidaLanum={"La tienda Art-Deco en lanas"}/>
+      </>
   );
 }
 

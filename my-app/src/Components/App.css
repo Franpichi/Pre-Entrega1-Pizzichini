@@ -4,5 +4,35 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(80, 166, 119);
+  background-color: #c9e265;
 }
+.navbar-brand {
+  font-size: 60px;
+  color: black;
+  font-weight: 900;
+}
+.nav-link {
+  font-size: 30px;
+  color: black;
+  border: none;
+}
+.dropdown-item {
+  font-size: 20px;
+  font-weight: 850;
+  color: black;
+}
+.bienvenida {
+  font-size: 50px;
+  text-align: center;
+}
+.App-logo {
+  width:15rem;
+  height: 7rem;
+}
+.form-control {
+  margin-left: 45rem;
+  width: 350px;
+  height: 45px;
+}
+
+

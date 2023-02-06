@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Secciones from '../Secciones/secciones';
 
 const Categorias = () => {
@@ -6,19 +7,13 @@ const Categorias = () => {
     <div className="collapse navbar-collapse " id="navbarColor01">
         <ul className="navbar-nav me-auto">
             <li className="nav-item">
-                <a className="nav-link" href="#">
-                Inicio
-                </a>
+                <Link className="nav-link" to={"/"}>Inicio</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">
-                Lanas
-                </a>
+            <Link className="nav-link" to={"/"}>Lanas</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">
-                Colores
-                </a>
+            <Link className="nav-link" to={"/"}>Contacto</Link>
             </li>
             <Secciones/>
         </ul>

@@ -1,0 +1,114 @@
+[
+    {
+        "id":1, 
+        "idCategoria":"1",
+        "categoria": "hogar", 
+        "Nombre":"Almohadon", 
+        "precio":"1300", 
+        "stock":"4", 
+        "img":"almohadon.jpg"
+    },
+    {
+        "id":2, 
+        "idCategoria":"1", 
+        "categoria": "hogar", 
+        "Nombre":"Frutas", 
+        "precio":"3000", 
+        "stock":"7", 
+        "img":"frutas.jpg"
+    },
+    {
+        "id":3, 
+        "idCategoria":"2", 
+        "categoria": "ropa", 
+        "Nombre":"Remera Mangas Largas", 
+        "precio":"1500", 
+        "stock":"7", 
+        "img":"buzo.jpeg"
+    },
+    {
+        "id":4, 
+        "idCategoria":"2", 
+        "categoria": "ropa", 
+        "Nombre":"Remera", 
+        "precio":"2000", 
+        "stock":"6", 
+        "img":"remera.jpg"
+    },
+    {
+        "id":5, 
+        "idCategoria":"2",
+        "categoria": "ropa",  
+        "Nombre":"Top", 
+        "precio":"1900", 
+        "stock":"6", 
+        "img":"top.jpg"
+    },
+    {
+        "id":6, 
+        "idCategoria":"2", 
+        "categoria": "ropa", 
+        "Nombre":"Musculosa", 
+        "precio":"2500", 
+        "stock":"2", 
+        "img":"musculosa.jpg"
+    },
+    {
+        "id":7, 
+        "idCategoria":"1", 
+        "categoria": "hogar", 
+        "Nombre":"Pencas", 
+        "precio":"3500", 
+        "stock":"9", 
+        "img":"pencas.jpg"
+    },
+    {
+        "id":8, 
+        "idCategoria":"1", 
+        "categoria": "hogar", 
+        "Nombre":"Manzana", 
+        "precio":"500", 
+        "stock":"7", 
+        "img":"manzana.jpg"
+    },
+    {
+        "id":9, 
+        "idCategoria":"3", 
+        "categoria": "mascota", 
+        "Nombre":"Perrito", 
+        "precio":"9000", 
+        "stock":"3", 
+        "img":"perrito.jpg"
+    },
+    {
+        "id":10, 
+        "idCategoria":"4", 
+        "categoria": "regalos", 
+        "Nombre":"Mate Regalo", 
+        "precio":"1300", 
+        "stock":"5", 
+        "img":"mateRegalo.jpg"
+    },
+    {
+        "id":11, 
+        "idCategoria":"4", 
+        "categoria": "regalos", 
+        "Nombre":"Bolsa Regalo", 
+        "precio":"1200", 
+        "stock":"4", 
+        "img":"bolsaRegalo.jpeg"
+    },
+    {
+        "id":12, 
+        "idCategoria":"3", 
+        "categoria": "mascota", 
+        "Nombre":"Gallina", 
+        "precio":"5000", 
+        "stock":"4", 
+        "img":"gallina.jpg"
+    }
+]
+
+
+
+

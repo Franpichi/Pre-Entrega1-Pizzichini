@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card-title{
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.card {
+  height: 600px;
+  width: 400px;
+  margin-left: 3.5rem;
+  margin-top: 3.5rem;
+}
+.btn {
+  background-color: aqua;
+}
+.card-img-top {
+  height: 350px;
+  width: 350px;
+  padding: 1rem;
+  margin: 0.7rem;
+}

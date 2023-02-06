@@ -1,16 +1,20 @@
 import './App.css';
-import CartWidget from './CartWidget/CartWidget';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './NavBar/NavBar';
-import ItemListContainer from './ItemListContainer/ItemListContainer';
-import Buscador from './Buscador/Buscador';
+import { ItemListContainer } from './ItemListContainer/ItemListContainer';
+import {ItemDetailContainer} from './ItemDetailContainer/ItemDetailContainer';
 
 const App = () => {
   return (
       <>
-        <NavBar />
-        <Buscador/>
-        <ItemListContainer bienvenidaLanum={"Bienvenidos a Lanum"}/>
-        <ItemListContainer bienvenidaLanum={"La tienda Art-Deco en lanas"}/>
+        <BrowserRouter>
+          <NavBar />
+          <Routes>
+            <Route path='/' element={<ItemListContainer/>}/>
+            <Route path='/item/:id' element={<ItemDetailContainer/>}/>
+            <Route path='/item/:idCategoria' element={<ItemListContainer/>}/>
+          </Routes>
+        </BrowserRouter>
       </>
   );
 }

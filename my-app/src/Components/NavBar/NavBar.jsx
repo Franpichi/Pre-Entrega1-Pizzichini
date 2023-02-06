@@ -2,7 +2,6 @@ import logo from '../logo.svg'
 import React from 'react';
 import CartWidget from '../CartWidget/CartWidget';
 import Categorias from './Categorias/categorias';
-import Buscador from '../Buscador/Buscador';
 
 const NavBar = () => {
     return (
@@ -12,7 +11,7 @@ const NavBar = () => {
       <img src={logo} className="App-logo" alt="logo" />
     </a>
         <Categorias/>
-        <CartWidget carroCodeado={7}/>
+        <CartWidget/>
 
     </div>
 </nav>
